@@ -8,19 +8,19 @@ class MainTest {
 
 
     @Test
-    void squirrelPlay_One() {
-        assertEquals(true, Main.squirrelPlay(70,false));
+    void sortaSum_One() {
+        assertEquals(7, Main.sortaSum(3,4));
 
     }
 
     @Test
-    void squirrelPlay_Two() {
-        assertEquals(false, Main.squirrelPlay(95,false));
+    void sortaSum_Two() {
+        assertEquals(20, Main.sortaSum(9,4));
     }
 
     @Test
-    void squirrelPlay_Three() {
-        assertEquals(true, Main.squirrelPlay(95,true));
+    void sortaSum_Three() {
+        assertEquals(21, Main.sortaSum(10,11));
     }
 
 }
