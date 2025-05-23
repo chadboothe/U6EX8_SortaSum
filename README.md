@@ -1,20 +1,5 @@
-# More Than
+# Sorta Sum
 
-Enter a number between 1 and 10. Write a Java method called moreThan() that checks if the number is 2 more or less than a randomly generated number between the number entered.
+Have the user input two integer values between 1 to 20 (inclusive). Create a sortaSum method that takes the two integers as parameters and adds / sums the two integers together. return their sum to the main method as an integer. However, sums in the range 10 to 19 inclusive, are forbidden, so in that case just return 20.
 
-* To generate a random number call the randomNbr() method created for you from the main method.The randomNbr() method is to return a random integer back to the main method.
-* To prompt the user for a guess call the makeAGuess() method from the main method. The makeAGuess() method is to return the integer inputted back to the main method.
-
-Your method (moreThan) must accept two integer parameters, which is your guess and the randomly generated number, and return a Boolean. If the number passed into the method is two more or less than the random number generated then return true, else false.
-
-Example of calling the method: moreThan(guess, randomNbr);
-
-```
-Test Data:
-
-moreThan(10, 5) → false (5 is generated)
-moreThan(5, 5) → false (5 is generated)
-moreThan(6, 5) → false (5 is generated)
-moreThan(5, 7) → true (7 is generated)
-moreThan(3, 5) → true (5 is generated)
-```
+NOTE: Check that the user enters a number between 1 to 20, otherwise prompt them again.
